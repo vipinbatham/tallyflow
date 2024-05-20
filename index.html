@@ -5,67 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-        crossorigin="anonymous"></script>
-        <script src="assets/js/script.js"></script>
-    <script src="assets/js/fontawesome.js"></script>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"> </script>
+    <script src="assets/js/script.js"></script>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
-
-    <div class="hero ">
-        <header class="header">
-            <div class="container navbar px-4 align-items-center" id="navbar">
-                <div class="section-1-logo d-flex pe-auto my-2">
-                    <img src="assets/img/Vector.png" class="vector-img mx-1" alt="logo" title="logo">
-                    <h2 class="logo-text  mt-2">TallyFlow.</h2>
+    <section>
+        <header class="header" id="navbar">
+            <div class="container navbar  align-items-center">
+                <div class="section-1-logo">
+                    <img src="assets/img/Logo.webp" class="vector-img mx-1" alt="logo" title="logo">
+                    <a href="index.html" class="logo-text  mt-2">TallyFlow.</a>
 
                 </div>
-                <button class="fa-solid fa-bars" id="menu"></button>
-                <ul class="nav  responsive-ul" style="gap: 10px;">
-                    <li><a href="#" class="link-text">Features</a></li>
+                <button class="fa-solid fa-bars" id="menu" ></button>
+                <ul class="nav" id="nav" style="gap: 14px;">
+                    <li><a href="feature.html" class="link-text">Features</a></li>
                     <li><a href="#" class="link-text">Products</a></li>
                     <li><a href="#" class="link-text">Pricing</a></li>
                     <li><a href="#" class="link-text">About us</a></li>
                     <li><a href="#" class="link-text">Tools</a></li>
                 </ul>
                 <div class="section-3-serch-auth">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#" class="login-link"><i class="fa-solid fa-magnifying-glass"></i></a>
                     |
-                    <div>
-                        <i class="fa-solid fa-user"></i>
-                        <a href="#" class="link-text">Sign In / Sign Up</a>
-                    </div>
+                    <a href="#" class="login-link"> <i class="fa-solid fa-user mx-1"></i>Sign In / Sign Up</a>
                 </div>
             </div>
 
         </header>
+    </section>
+    <!-- hero section start -->
+
+    <div class="hero">
 
         <section class="position-relative ">
             <!-- hero-section after navbar  start-->
-            <div class=" position-relative  container  mx-auto pb-3">
-                <img src="assets/img/Group 1707477970.png" class="Grou1707477970">
+            <div class=" position-relative container py-4  mx-auto pb-3">
+                <img src="assets/img/calulater.webp" class="Grou1707477970" alt="calculater">
 
                 <div class="content-text ">
-                    <div class="content-text-badge  mb-2"><img src="assets/img/Frame 427321738.png" alt="" width="18px"
+                    <div class="content-text-badge  mb-2"><img src="assets/img/box_img.webp" alt="badge" width="18px"
                             height="18px">
-                        <p class="fs-6">Update New features for active users ✨</p>
+                        <p class="fs-6 m-0">Update New features for active users ✨</p>
                     </div>
                     <h2 class="title py-2">
                         From Invoicing to <br> Expert Advice
-                        <img class="underline" src="assets/img/Underline_01.png" alt="">
+                        <img class="underline" src="assets/img/Underline.webp" alt="underline">
                         <br> Explore TallyFlow's AI<br> Accounting Ecosystem
                     </h2>
-                    <div class="content-para">
+                    <div class="content-para text-justify">
                         <p>"Unlock the Full Potential of Your Business Finances
                             with TallyFlow: Seamlessly Manage Invoices and Gain Access to Expert Guidance Every Step of
                             the Way."</p>
                     </div>
-                    <div class="buttons">
+                    <div class="buttons py-4">
                         <a href="#" class="hero-btn"><i class="fa-solid fa-calendar text-dark mx-2"></i>Shedule Demo</a>
                         <a href="#" class="hero-btn-2 "><i class="fa-solid fa-circle-play mx-2"></i>Watch now</a>
                     </div>
@@ -73,13 +76,13 @@
 
             </div>
 
-            <img src="assets/img/Frame 36744.png" class="img  img-fliud" alt="">
+            <img src="assets/img/hero_img.webp" class="img  img-fliud" alt="dashboard_img">
 
 
             <div class="overlay"></div>
         </section>
     </div>
-    <!-- hero-section after navbar  end-->
+    <!-- hero section start -->
     <!-- second section satrt -->
     <section class="second-background py-5">
         <div class="container">
@@ -87,116 +90,116 @@
                 Team with TallyFlow
             </h2>
             <br>
-            <p class="l-para">
+            <p class="l-para text-center">
                 TallyFlow Revolutionizing Financial Operations with Cutting-Edge Technology
             </p>
 
             <div class="boxes">
                 <div class="box">
-                    <img src="assets/img/Frame 427321738.png" alt="" class="box-img">
-                    <h4>
+                    <img src="assets/img/box_img.webp" alt="badge" class="box-img">
+                    <h4 class="px-1">
                         Automated Accounting Services Through AI
                     </h4>
                     <p>"Streamlining Financial Operations with Artificial Intelligence"</p>
                     <div class="img-box">
-                        <img src="assets/img/Ellipse 1535.png" class="bottom-img" alt="">
+                        <img src="assets/img/bottom_img_1.webp" class="bottom-img" alt="">
                     </div>
                 </div>
 
                 <div class="box">
-                    <img src="assets/img/Frame 427321738.png" alt="" class="box-img">
+                    <img src="assets/img/box_img.webp" alt="badge" class="box-img">
                     <h4>
                         Tax Return Filling through AI Powered Team
                     </h4>
                     <p>"Streamlining Financial Operations with Artificial Intelligence"</p>
                     <div class="img-box">
-                        <img src="assets/img/Ellipse 1535 (1).png" class="bottom-img" alt="">
+                        <img src="assets/img/bottom_img_2.webp" class="bottom-img" alt="">
                     </div>
                 </div>
 
                 <div class="box">
-                    <img src="assets/img/Frame 427321738.png" alt="" class="box-img">
+                    <img src="assets/img/box_img.webp" alt="badge" class="box-img">
                     <h4>
                         Dedicated Accounting and Tax Expert
                     </h4>
                     <p>"Streamlining Financial Operations with Artificial Intelligence"</p>
                     <div class="img-box">
-                        <img src="assets/img/Ellipse 1535 (2).png" class="bottom-img" alt="">
+                        <img src="assets/img/bottom_img_3.webp" class="bottom-img" alt="badge">
                     </div>
                 </div>
 
 
                 <div class="box">
-                    <img src="assets/img/Frame 427321738.png" alt="" class="box-img">
+                    <img src="assets/img/box_img.webp" alt="" class="box-img">
                     <h4>
                         Automated Dashboards For Quick Business Overview
                     </h4>
                     <p>"Streamlining Financial Operations with Artificial Intelligence"</p>
                     <div class="img-box">
-                        <img src="assets/img/Ellipse 1535 (3).png" class="bottom-img" alt="">
+                        <img src="assets/img/bottom_img_4.webp" class="bottom-img" alt="">
                     </div>
                 </div>
 
 
                 <div class="box">
-                    <img src="assets/img/Frame 427321738.png" alt="" class="box-img">
+                    <img src="assets/img/box_img.webp" alt="" class="box-img">
                     <h4>
                         Real Time
                         Reporting
                     </h4>
                     <p>"Streamlining Financial Operations with Artificial Intelligence"</p>
                     <div class="img-box">
-                        <img src="assets/img/Ellipse 1535 (4).png" class="bottom-img" alt="">
+                        <img src="assets/img/bottom_img_5.webp" class="bottom-img" alt="">
                     </div>
                 </div>
 
 
                 <div class="box">
-                    <img src="assets/img/Frame 427321738.png" alt="" class="box-img">
+                    <img src="assets/img/box_img.webp" alt="" class="box-img">
                     <h4>
                         Documents
                         Repository
                     </h4>
                     <p>"Streamlining Financial Operations with Artificial Intelligence"</p>
                     <div class="img-box">
-                        <img src="assets/img/Ellipse 1535 (5).png" class="bottom-img" alt="">
+                        <img src="assets/img/bottom_img_6.webp" class="bottom-img" alt="">
                         <!-- <h6>learn more</h6> -->
                     </div>
                 </div>
 
 
                 <div class="box">
-                    <img src="assets/img/Frame 427321738.png" alt="" class="box-img">
+                    <img src="assets/img/box_img.webp" alt="" class="box-img">
                     <h4>
                         Invoicing
                     </h4>
                     <p>"Streamlining Financial Operations with Artificial Intelligence"</p>
                     <div class="img-box">
-                        <img src="assets/img/Ellipse 1535 (6).png" class="bottom-img" alt="">
+                        <img src="assets/img/bottom_img_7.webp" class="bottom-img" alt="">
                     </div>
                 </div>
 
 
                 <div class="box">
-                    <img src="assets/img/Frame 427321738.png" alt="" class="box-img">
+                    <img src="assets/img/box_img.webp" alt="" class="box-img">
                     <h4>
                         E-Invoicing
                     </h4>
                     <p>"Streamlining Financial Operations with Artificial Intelligence"</p>
                     <div class="img-box">
-                        <img src="assets/img/Ellipse 1535 (7).png" class="bottom-img" alt="">
+                        <img src="assets/img/bottom_img_8.webp" class="bottom-img" alt="">
                     </div>
                 </div>
 
 
                 <div class="box">
-                    <img src="assets/img/Frame 427321738.png" alt="" class="box-img">
+                    <img src="assets/img/box_img.webp" alt="" class="box-img">
                     <h4>
                         E-Way Bills
                     </h4>
                     <p>"Streamlining Financial Operations with Artificial Intelligence"</p>
                     <div class="img-box">
-                        <img src="assets/img/Ellipse 1535 (8).png" class="bottom-img" alt="">
+                        <img src="assets/img/bottom_img_9.webp" class="bottom-img" alt="">
                     </div>
                 </div>
             </div>
@@ -208,10 +211,10 @@
                     the
                     industry's standard dummy text ever since the 1500s, </p>
                 <div class="team-box">
-                    <img src="assets/img/Ellipse 1510.png" alt="">
-                    <img src="assets/img/Ellipse 1516.png" alt="">
-                    <img src="assets/img/Ellipse 1517.png" alt="">
-                    <img src="assets/img/Ellipse 1518.png" alt="">
+                    <img src="assets/img/team_1.webp" alt="team">
+                    <img src="assets/img/team_2.webp" alt="team">
+                    <img src="assets/img/team_3.webp" alt="team">
+                    <img src="assets/img/team_4.webp" alt="team">
                 </div>
             </div>
         </div>
@@ -225,7 +228,7 @@
                 <div class="col-md-6 col-sm-12  mb-4">
                     <h3 class="title">Effortless Accounting, Exceptional Results
                         Experience TallyFlow Today !</h3>
-                    <p class="my-2 text-white">Experience the seamless synergy of innovation and efficiency with
+                    <p class="my-2 text-white text-justify">Experience the seamless synergy of innovation and efficiency with
                         TallyFlow, your ultimate solution for hassle-free accounting. Say
                         goodbye to tedious manual processes and welcome a new era of
                         productivity. Our intuitive platform empowers you to effortlessly
@@ -234,13 +237,10 @@
                         just a possibility, it's a certainty.
                         Take the leap today and unlock the full potential of your accounting endeavors.</p>
                     <br>
-
-
                     <a href="#" class="hero-btn"><i class="fa-solid fa-calendar mx-2"></i>Shedule Demo</a>
-
                 </div>
                 <div class="col-md-6 col-sm-12 ">
-                    <img src="assets/img/image 6.png" class="img-fluid" alt="" srcset="">
+                    <img src="assets/img/manimage.webp" class="img-fluid" alt="" srcset="">
                 </div>
             </div>
         </div>
@@ -250,22 +250,22 @@
     <!-- fourth section star t -->
     <section class="fourth-section py-5">
         <div class="container mx-auto">
-            <div class="content-text-badge" style="width: 200px; margin: auto;"><img src="assets/img/Frame 427321738.png" alt="" width="18px"
-                    height="18px">
-                <p>TallyFlow Feature’s ✨</p>
+            <div class="content-text-badge" style="width: 200px; margin: auto;"><img src="assets/img/box_img.webp"
+                    alt="badge" width="18px" height="18px">
+                <p class="m-0">TallyFlow Feature’s ✨</p>
             </div>
             <h2 class="title-second mt-5">"Where innovation meets functionality, revolutionizing the way you manage your
                 business."</h2>
             <div class="flex-content ">
                 <table>
                     <tr class="row py-4">
-                        <td class="col-md-6 col-sm-12 col-xs"><img src="assets/img/Rectangle 2076 (2).png"
-                                class="img-fluid" alt=""></td>
+                        <td class="col-md-6 col-sm-12 col-xs"><img src="assets/img/table_1image.webp" class="img-fluid"
+                                alt="tallyflow_dashboard"></td>
                         <td class="col-md-6 col-sm-12 col-xs">
                             <h3 class=" my-3 table-heading">
                                 Transaction Management Through AI
                             </h3>
-                            <p class="table-para">Experience the seamless synergy of innovation and efficiency with
+                            <p class="table-para text-justify">Experience the seamless synergy of innovation and efficiency with
                                 TallyFlow, your
                                 ultimate solution for hassle-free accounting. Say goodbye to tedious manual processes
                                 and welcome a new era of productivity. Our intuitive platform empowers you to
@@ -282,7 +282,7 @@
                         <td class="col-md-6 col-sm-12 col-xs">
                             <h3 class=" my-3 table-heading">
                                 Automated File Management </h3>
-                            <p class="table-para">Experience the seamless synergy of innovation and efficiency with
+                            <p class="table-para text-justify">Experience the seamless synergy of innovation and efficiency with
                                 TallyFlow, your ultimate solution for hassle-free accounting. Say goodbye to tedious
                                 manual processes and welcome a new era of productivity. Our intuitive platform empowers
                                 you to effortlessly manage your financial tasks, from invoicing to expense tracking,
@@ -291,21 +291,22 @@
                                 accounting endeavors.</p>
                             <br>
 
-                            <a href="#" class="btn request-demo ">Request-demo</a>
+                            <a href="#" class="request-demo"><i
+                                    class="fa-solid fa-arrow-up-right text-white"></i>Request-demo</a>
 
                         </td>
-                        <td class="col-md-6 col-sm-12 col-xs"><img src="assets/img/Rectangle 2076 (1).png"
-                                class="img-fluid" alt=""></td>
+                        <td class="col-md-6 col-sm-12 col-xs"><img src="assets/img/table_2image.webp" class="img-fluid"
+                                alt="tallyflow_dashboard"></td>
                     </tr>
 
                     <tr class="row py-4">
-                        <td class="col-md-6 col-sm-12 col-xs"><img src="assets/img/Rectangle 2076 (3).png"
-                                class="img-fluid" alt=""></td>
+                        <td class="col-md-6 col-sm-12 col-xs"><img src="assets/img/table_3image.webp" class="img-fluid"
+                                alt="tallyflow_dashboard"></td>
                         <td class="col-md-6 col-sm-12 col-xs">
-                            <h3 class=" my-3 table-heading">
+                            <h3 class="my-3 table-heading">
                                 Automated Tax Filings
                             </h3>
-                            <p class="table-para">Experience the seamless synergy of innovation and efficiency with
+                            <p class="table-para text-justify">Experience the seamless synergy of innovation and efficiency with
                                 TallyFlow, your
                                 ultimate solution for hassle-free accounting. Say goodbye to tedious manual processes
                                 and welcome a new era of productivity. Our intuitive platform empowers you to
@@ -323,7 +324,7 @@
                             <h3 class=" my-3 table-heading">
                                 Automated Tax Filings
                             </h3>
-                            <p class="table-para">Experience the seamless synergy of innovation and efficiency with
+                            <p class="table-para text-justify">Experience the seamless synergy of innovation and efficiency with
                                 TallyFlow, your
                                 ultimate solution for hassle-free accounting. Say goodbye to tedious manual processes
                                 and welcome a new era of productivity. Our intuitive platform empowers you to
@@ -334,8 +335,8 @@
                             <br>
                             <a href="#" class="request-demo">Request-demo</a>
                         </td>
-                        <td class="col-md-6 col-sm-12 col-xs py-4"><img src="assets/img/Rectangle 2076 (3).png"
-                                class="img-fluid" alt=""></td>
+                        <td class="col-md-6 col-sm-12 col-xs py-4"><img src="assets/img/table_4image.webp"
+                                class="img-fluid" alt="tallyflow_dashboard"></td>
                     </tr>
                 </table>
             </div>
@@ -347,96 +348,89 @@
 
     <!-- fifth section start -->
 
- 
+
     <!-- fifth section end -->
 
     <!-- section chose us  start-->
     <section class="choose-us py-5 px-2">
         <div class=" container">
-            <div class="content-text-badge block" style="width: 150px;"><img src="assets/img/Frame 427321738.png" alt=""
-                    width="18px" height="18px">
-                <p>TallyFlow ✨</p>
+            <div class="content-text-badge block mx-auto" style="width: 150px;"><img src="assets/img/box_img.webp"
+                    alt="badge" width="18px" height="18px">
+                <p class="m-0">TallyFlow ✨</p>
             </div>
             <h2 class="title-second my-3">Why Choose us?</h2>
             <div class="row cards">
                 <div class="card">
                     <div class="card-img-div">
-                        <img src="assets/img/blue vector.png" alt="">
+                        <img src="assets/img/logo.webp" alt="logo">
                     </div>
                     <h5>Expertise in AI-Powered Automation</h5>
-                    <p>At TallyFlow, we harness the power of artificial intelligence to streamline your accounting
+                    <p class="text-justify">At TallyFlow, we harness the power of artificial intelligence to streamline your accounting
                         processes. Our cutting-edge technology ensures accuracy, efficiency, and reliability in every
                         aspect of your financial management.
                     </p>
+                   <a href="#" class="learn-more ">Learn more-></a>
 
                 </div>
-
-
                 <div class="card">
                     <div class="card-img-div">
-                        <img src="assets/img/blue vector.png" alt="">
+                        <img src="assets/img/Logo.webp" alt="card-img">
                     </div>
                     <h5>Tailored Solutions by Dedicated Experts</h5>
-                    <p>At TallyFlow, we harness the power of artificial intelligence to streamline your accounting
+                    <p class="text-justify">At TallyFlow, we harness the power of artificial intelligence to streamline your accounting
                         processes. Our cutting-edge technology ensures accuracy, efficiency, and reliability in
                         every
                         aspect of your financial management.
                     </p>
+                    <a href="#" class="learn-more ">Learn more-></a>
                 </div>
-
-
-
                 <div class="card">
                     <div class="card-img-div">
-                        <img src="assets/img/blue vector.png" alt="">
+                        <img src="assets/img/logo.webp" alt="card-img">
                     </div>
                     <h5>Seamless Tax Return Filing</h5>
-                    <p>At TallyFlow, we harness the power of artificial intelligence to streamline your accounting
+                    <p class="text-justify">At TallyFlow, we harness the power of artificial intelligence to streamline your accounting
                         processes. Our cutting-edge technology ensures accuracy, efficiency, and reliability in
                         every
                         aspect of your financial management.
                     </p>
+                    <a href="#" class="learn-more ">Learn more-></a>
                 </div>
-
-
-
                 <div class="card">
                     <div class="card-img-div">
-                        <img src="assets/img/blue vector.png" alt="">
+                        <img src="assets/img/logo.webp" alt="card-img">
                     </div>
                     <h5>Insights with Automated Dashboards</h5>
-                    <p>At TallyFlow, we harness the power of artificial intelligence to streamline your accounting
+                    <p class="text-justify">At TallyFlow, we harness the power of artificial intelligence to streamline your accounting
                         processes. Our cutting-edge technology ensures accuracy, efficiency, and reliability in
                         every
                         aspect of your financial management.
                     </p>
+                    <a href="#" class="learn-more ">Learn more-></a>
                 </div>
-
-
-
                 <div class="card">
                     <div class="card-img-div">
-                        <img src="assets/img/blue vector.png" alt="">
+                        <img src="assets/img/logo.webp" alt="card-img">
                     </div>
                     <h5>Effortless Document Management</h5>
-                    <p>At TallyFlow, we harness the power of artificial intelligence to streamline your accounting
+                    <p class="text-justify">At TallyFlow, we harness the power of artificial intelligence to streamline your accounting
                         processes. Our cutting-edge technology ensures accuracy, efficiency, and reliability in
                         every
                         aspect of your financial management.
                     </p>
+                    <a href="#" class="learn-more ">Learn more-></a>
                 </div>
-
-
                 <div class="card">
                     <div class="card-img-div">
-                        <img src="assets/img/blue vector.png" alt="">
+                        <img src="assets/img/logo.webp" alt="card-img">
                     </div>
                     <h5>Streamlined Invoicing and E-Way Bills</h5>
-                    <p>At TallyFlow, we harness the power of artificial intelligence to streamline your accounting
+                    <p class="text-justify">At TallyFlow, we harness the power of artificial intelligence to streamline your accounting
                         processes. Our cutting-edge technology ensures accuracy, efficiency, and reliability in
                         every
                         aspect of your financial management.
                     </p>
+                    <a href="#" class="learn-more ">Learn more-></a>
                 </div>
 
             </div>
@@ -448,103 +442,147 @@
 
     <section class="question-section py-5">
         <div class="container question-container row mx-auto">
-            <div class="col-md-6 col-sm-12 py-5 align-items-start">
-                <div class="content-text-badge" style="width:130px;"><img src="assets/img/Frame 427321738.png"
-                    alt="" width="18px" height="18px">
-                    <p>FAQ ✨</p>
+            <div class="col-md-6 col-sm-12 py-5  mx-auto">
+                <div class="content-text-badge" style="width:130px;"><img src="assets/img/box_img.webp" alt="badge"
+                        width="18px" height="18px">
+                    <p class="m-0">FAQ ✨</p>
                 </div>
                 <h2>Frequently asked questions</h2>
-                <p class="para">Frequently asked questions ordered by popularity. Remember that if the visitor has not
+                <p class="para text-justify">Frequently asked questions ordered by popularity. Remember that if the visitor has not
                     commit to the
                     call to action, they may still have questions (doubts) that can be answered. </p>
-                    
-                    <img src="assets/img/Frame 25.png" class="lp-image"
+
+                <img src="assets/img/laptop.webp" class=" my-5 img-fluid" alt="laptop_image"
                     style="object-fit: contain; border-radius: 20px;">
-                    
-                    
-                </div>
-            <div class="col-lg-6 col-sm-12 ">
-                <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header " id="headingOne">
-                        <button class=" accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            <h6 class="text-primary">What is the minimum investment required in the pre-IPO round?</h6 class="text-primary">
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            The minimum investment amount for participation in the pre-IPO round varies depending on the specific offering. Typically, this information is provided in the offering documents or prospectus. We recommend reviewing the details of the offering to understand the minimum investment threshold.
+
+
+            </div>
+            <div class="col-lg-6 col-sm-12 align-items-start">
+                <div class="accordion" style="background: transparent;" id="accordionExample">
+                    <div class="card-box">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn  btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What is the minimum investment required in the pre-IPO round?
+                                </button>
+                            </h2>
                         </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <h6 class="text-primary">What is the minimum investment required in the pre-IPO round? Accordion Item #2</h6 class="text-primary">
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            The minimum investment amount for participation in the pre-IPO round varies depending on the specific offering. Typically, this information is provided in the offering documents or prospectus. We recommend reviewing the details of the offering to understand the minimum investment threshold.
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordionExample">
+                            <div class="card-body text-justify">
+                                Neuros's AI-driven predictive analytics utilizes advanced machine learning algorithms to analyze historical data and identify patterns. By doing so, it can anticipate future trends, market shifts, and potential challenges, allowing businesses to make informed decisions proactively.
+                            </div>
                         </div>
-                      </div>
                     </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <h6 class="text-primary">What is the minimum investment required in the pre-IPO round?</h6 class="text-primary">
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                               The minimum investment amount for participation in the pre-IPO round varies depending on the specific offering. Typically, this information is provided in the offering documents or prospectus. We recommend reviewing the details of the offering to understand the minimum investment threshold.
+                    <div class="card-box">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    What is the minimum investment required in the pre-IPO round?
+                                </button>
+                            </h2>
                         </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              <h6 class="text-primary">What is the minimum investment required in the pre-IPO round?</h6 class="text-primary">
-                          </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                          <div class="accordion-body">
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                            data-parent="#accordionExample">
+                            <div class="card-body text-justify">
                                 The minimum investment amount for participation in the pre-IPO round varies depending on the specific offering. Typically, this information is provided in the offering documents or prospectus. We recommend reviewing the details of the offering to understand the minimum investment threshold.
-                          </div>
+                            </div>
                         </div>
-                      </div>
-                      <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              <h6 class="text-primary">What is the minimum investment required in the pre-IPO round?</h6 class="text-primary">
-                          </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                          <div class="accordion-body">
-                              The minimum investment amount for participation in the pre-IPO round varies depending on the specific offering. Typically, this information is provided in the offering documents or prospectus. We recommend reviewing the details of the offering to understand the minimum investment threshold.
-                          </div>
+                    </div>
+                    <div class="card-box">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    What is the minimum investment required in the pre-IPO round?
+                                </button>
+                            </h2>
                         </div>
-                      </div>
-                  </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordionExample">
+                            <div class="card-body text-justify">
+                                Absolutely! At Neuros, we prioritize data security. All data processed and stored on our platform is encrypted using industry-standard protocols. Additionally, we have stringent access controls in place to ensure that only authorized personnel can access sensitive information.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- New Accordion Items Start Here -->
+                    <div class="card-box">
+                        <div class="card-header" id="headingFour">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">
+                                    Can I integrate Neuros with other tools and platforms I currently use?
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                            data-parent="#accordionExample">
+                            <div class="card-body text-justify">
+                                Yes, Neuros is designed to seamlessly integrate with a wide range of business tools, CRMs, ERPs, and other platforms. Our goal is to provide a unified analytics experience, ensuring you have a holistic view of your operations.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-box">
+                        <div class="card-header" id="headingFive">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+                                    aria-controls="collapseFive">
+                                    How is the pricing structured for Neuros? Are there any hidden fees?
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                            data-parent="#accordionExample">
+                            <div class="card-body text-justify">
+                                Neuros offers transparent pricing with various plans to cater to different business needs. All our pricing details are listed on the "Pricing" page. There are no hidden fees, and you can choose a plan that best fits your requirements.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-box">
+                        <div class="card-header" id="headingSix">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseSix" aria-expanded="false"
+                                    aria-controls="collapseSix">
+                                    I'm new to business analytics. Does Neuros offer any support or tutorials?
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
+                            data-parent="#accordionExample">
+                            <div class="card-body text-justify">
+                                Absolutely! We understand that analytics can be overwhelming, especially if you're new to it. Neuros offers a range of tutorials, user guides, and dedicated customer support to assist you at every step. Our aim is to make your Neuros experience as smooth and beneficial as possible.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- New Accordion Items End Here -->
+                </div>
             </div>
         </div>
     </section>
 
 
 
-    
+
     <section class="six-section py-5 text-white">
         <div class="container mx-auto px-3">
-            <div class="col-lg-6">
-                <h2 >Talk with Our Expert’s!</h2>
-                <p> Engage in insightful discussions and gain valuable insight by conversing with our team of experts.
+            <div class="col-lg-6 py-3">
+                <h2>Talk with Our Expert’s!</h2>
+                <p class="para text-justify"> Engage in insightful discussions and gain valuable insight by conversing with our team
+                    of experts.
                     Whether you're seeking guidance on complex issues or looking to explore innovative solutions
                     our
                     ]experts are here to support you every step of the way. Join
-                    <br>the conversation today and unlock the power
+                    the conversation today and unlock the power
                     of expertise to propel your endeavors forward.
                 </p>
-                <div class="my-3 pl-3">
+                <div class="my-5 ">
                     <a href="#" class="hero-btn "><i class="fa-solid fa-calendar mx-2"></i>Shedule Demo</a>
                 </div>
             </div>
@@ -554,80 +592,78 @@
 
     <footer class="py-5 px-1 text-white" style="background-color: rgba(22, 64, 193, 1); ">
         <div class="container">
-            <div class="row py-3 ">
-                <div class="col-md-7 col-sm-12 my-2">
+            <div class="row py-3 " style="border-bottom: 2px solid white">
+                <div class="col-md-12 col-lg-6 col-sm-12 my-2">
                     <h3>Join Our Newsletter</h3>
                     <p>Be the first to know about our latest updates, exclusive offers, and more.</p>
                 </div>
-                <div class="col-md-3 col-sm-12 my-2 d-flex  column" >
-                    <input type="email" class="px-2" name="" style="color: white;" placeholder="enter your email" id=""> 
-                    
+                <div class="col-md-6 col-lg-4 col-sm-12 my-2 d-flex  column">
+                    <input type="email" class="px-2" name="" style="color: white;" placeholder="enter your email" id="">
+
                 </div>
-                <div class="col-md-2 col-sm-12 my-2 d-flex  column" >
-                    <a href="#" class="subcribe px-4 py-2">Subcribe</a>                    
+                <div class="col-md-6 col-lg-2  col-sm-12 my-2 d-flex  column">
+                    <a href="#" class="subcribe px-4 py-2">Subcribe</a>
                 </div>
             </div>
-            <div class="footer row">
-                <div class="col-sm-12 col-md-3 section-1-logo d-flex">
-                    <img src="assets/img/Vector.png" class="vector-img" alt="logo" title="logo">
-                    <h2 class="logo-text " style="display: block; visibility: visible;">TallyFlow.</h2>
+            <div class="footer row my-3">
+                <div class="col-md-12 col-lg-2 col-sm-12 section-1-logo ">
+                    <img src="assets/img/Vector.webp" class="logo d-block ">
+                    <h2 class="logo-text text-white" style="display: block; visibility: visible;">TallyFlow.</h2>
                 </div>
-                <div class="col-md-2 col-sm-6" >
+                <div class="col-lg-2 col-md-4 col-sm-12 text-center">
                     <h4 class="footer-links-heading text-center">Product & Service</h4>
-                    
+
                     <ul>
-                        <li><a href="#" class="footer-links ">Products</a></li>
-                        <li><a href="#" class="footer-links ">Features</a></li>
-                        <li><a href="#" class="footer-links ">Pricing</a></li>
-                        <li><a href="#" class="footer-links ">Type text</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Products</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Features</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Pricing</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Type text</a></li>
                     </ul>
                 </div>
-                <div class="col-md-2 col-sm-6" >
-                    <h4 class="footer-links-heading text-center">Other</h4>
-                    
+                <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+                    <h4 class="footer-links-heading  text-center">Other</h4>
+
                     <ul>
-                        <li><a href="#" class="footer-links ">Type text</a></li>
-                        <li><a href="#" class="footer-links ">Type text</a></li>
-                        <li><a href="#" class="footer-links ">Type text</a></li>
-                        <li><a href="#" class="footer-links ">Type text</a></li>
-                        <li><a href="#" class="footer-links ">Type text</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Type text</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Type text</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Type text</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Type text</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Type text</a></li>
                     </ul>
                 </div>
-                <div class="col-md-2 col-sm-6" >
+                <div class="col-lg-2 col-md-4 col-sm-12 text-center">
                     <h4 class="footer-links-heading text-center">Connect us</h4>
-                    
                     <ul>
-                        <li><a href="#" class="footer-links ">Contact</a></li>
-                        <li><a href="#" class="footer-links ">Email Support</a></li>
-                        <li><a href="#" class="footer-links ">Live Chat</a></li>
-                        <li><a href="#" class="footer-links ">Phone Support</a></li>
-                        <li><a href="#" class="footer-links ">Community</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Contact</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Email Support</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Live Chat</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Phone Support</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Community</a></li>
                     </ul>
                 </div>
-                <div class="col-md-2 col-sm-6" >
+                <div class="col-lg-2 col-md-4 col-sm-12 text-center">
                     <h4 class="footer-links-heading text-center">Companys</h4>
-                    
                     <ul>
-                        <li><a href="#" class="footer-links ">Company Info</a></li>
-                        <li><a href="#" class="footer-links ">Investors</a></li>
-                        <li><a href="#" class="footer-links ">About Us</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Company Info</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Investors</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">About Us</a></li>
                     </ul>
                 </div>
             </div>
-         <div class="footer-bottom row">
-            <p class="col-sm-12 col-md-4 my-2">© 2024 TallyFlow UI. All Rights Reserved.</p>
-            <ul class="col-sm-12 col-md-4 my-2" style="list-style: none; display: flex; gap: 20px;">
-                <li>policy</li>
-                <li>English</li>
-                <li>legel</li>
-            </ul>
-            <ul class="col-sm-12 col-md-4 my-2" style="list-style: none; display: flex; gap: 20px;">
-                <li><i class="fa-brands fa-facebook"></i></li>
-                <li><i class="fa-brands fa-instagram"></i></li>
-                <li><i class="fa-brands fa-twitter"></i></li>
-                <li><i class="fa-brands fa-linkedin"></i></li>
-            </ul>
-         </div>
+            <div class="footer-bottom row mx-auto">
+                <p class=" col-lg-4 col-sm-12 col-md-4 my-2">© 2024 TallyFlow UI. All Rights Reserved.</p>
+                <ul class=" col-lg-4 col-sm-12 col-md-4 my-2 justify-content-center" style="list-style: none; display: flex; gap: 20px;">
+                    <li>policy</li>
+                    <li>English</li>
+                    <li>legel</li>
+                </ul>
+                <ul class="col-sm-12 col-md-4 my-2  justify-content-end" style="list-style: none; display: flex; gap: 20px;">
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                </ul>
+            </div>
         </div>
     </footer>
 
