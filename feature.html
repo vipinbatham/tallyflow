@@ -7,7 +7,7 @@
     <title>Document</title>
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="description" content="" />
-    <link rel="shortcut icon" href="assets/img/box_img.webp" type="image/x-icon" />
+  
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/script.js"></script>
@@ -20,40 +20,35 @@
 
 <body>
     <!-- header  -->
-    <section>
-        <header class="header" id="navbar">
-            <div class="container  navbar align-items-center justify-content-between">
-                <div class="section-1-logo">
-                    <img src="assets/img/Logo.webp" class="vector-img mx-1" alt="logo" title="logo" />
-                    <a href="index.html" class="logo-text mt-2">TallyFlow.</a>
-                </div>
-                <button class="fa-sharp fa-solid fa-bars" id="menu"></button>
-                <ul class="nav" style="gap: 14px">
-                    <li><a href="feature.html" class="link-text">Features</a></li>
-                    <li><a href="#" class="link-text">Products</a></li>
-                    <li><a href="#" class="link-text">Pricing</a></li>
-                    <li><a href="#" class="link-text">About us</a></li>
-                    <li><a href="#" class="link-text">Tools</a></li>
-                </ul>
-                <div class="section-3-serch-auth">
-                    <a href="#" class="login-link"><i class="fa-solid fa-magnifying-glass"></i></a>
-
-                    <a href="#" class="login-link">
-                        <i class="fa-solid fa-user mx-1"></i>Sign In / Sign Up</a>
-                </div>
+    <header class="header py-2" id="navbar">
+        <div class="container  navbar  align-items-center">
+            <div class="section-1-logo align-items-center">
+                <img src="assets/img/logo.webp" alt="logo">
+                <a href="index.html" class="logo-text mr-2">TallyFlow.</a>
             </div>
-            
-
-
-        </header>
-
-    </section>
+            <button class="fa-solid fa-bars text-white" id="menu"></button>
+            <ul class="nav hidden" id="nav" style="gap: 14px;">
+                <li><a href="feature.html" class="link-text">Features</a></li>
+                <li><a href="#" class="link-text">Products</a></li>
+                <li><a href="#" class="link-text">Pricing</a></li>
+                <li><a href="#" class="link-text">About us</a></li>
+                <li><a href="#" class="link-text">Tools</a></li>
+            </ul>
+            <div class="section-3-serch-auth">
+                <a href="#" class="login-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+             
+                <a href="sign-up-page.html" class="login-link"> <i class="fa-solid fa-user mx-1"></i>Sign In / Sign Up</a>
+            </div>
+        </div>
+    </header>
     <!-- header  -->
     <!-- hero section -->
     <section>
-        <div class="feature-hero py-4">
-            <div class="container">
-                <div class="feature-content text-center">
+      
+        <div class="feature-hero py-2">
+           
+            <div class="container pt-3">
+                <div class="feature-content py-4 text-center">
                     <div class="content-text-badge mx-auto" style="width: 130px">
                         <img src="assets/img/box_img.webp" alt="" width="18px" height="18px" />
                         <p class="m-0">FAQ ✨</p>
@@ -117,7 +112,7 @@
             <div class="d-flex flex-wrap justify-content-center" style="gap: 10px">
                 <div class="feature-card">
                     <i class="fa-solid fa-lock rounded-circle bg-white px-3 py-3 ml-2 my-2"></i>
-                    <p class="l-para my-1 mx-0 p-1">Efficiency Through Automation</p>
+                    <h5 class="l-para my-1 mx-0 p-1">Efficiency Through Automation</h5>
                     <p class="px-1 text-justify">
                         Streamlining invoicing processes using AI-driven systems can
                         drastically reduce manual labor, minimize errors, and expedite
@@ -126,9 +121,9 @@
                 </div>
                 <div class="feature-card">
                     <i class="fa-solid fa-user-gear rounded-circle bg-white px-3 py-3 ml-2 my-2"></i>
-                    <p class="l-para my-1 mx-0 ml-3">
+                    <h5 class="l-para my-1 mx-0 ml-3">
                         Personalized Client Interactions
-                    </p>
+                    </h5>
                     <p class="ml-3 text-justify">
                         AI-powered invoicing solutions can analyze client behavior,
                         preferences, and payment histories to tailor communication and
@@ -139,7 +134,7 @@
                 <div class="feature-card">
                     <i class="fa-sharp fa-solid fa-hourglass-start rounded-circle bg-white px-3 py-3 ml-2 my-2"
                         style="font-size: 18px"></i>
-                    <p class="l-para my-1 mx-0 ml-3">Data-Driven Insights</p>
+                    <h5 class="l-para my-1 mx-0 ml-3">Data-Driven Insights</h5>
                     <p class="px-1 text-justify">
                         Leveraging AI algorithms on invoicing data can offer valuable
                         insights into cash flow patterns, payment trends, and potential
@@ -176,7 +171,7 @@
             <div class="d-flex flex-wrap justify-content-center" style="gap: 10px">
                 <div class="feature-card">
                     <i class="fa-solid fa-lock rounded-circle bg-white px-3 py-3 ml-2 my-2"></i>
-                    <p class="l-para my-1 mx-0 p-1">Efficiency and Accuracy</p>
+                    <h5 class="l-para my-1 mx-0 p-1">Efficiency and Accuracy</h5>
                     <p class="px-1 text-justify">
                         Leveraging AI for Tax Preparation Streamline your tax return
                         process with AI-powered technologies that ensure precision and
@@ -186,7 +181,7 @@
                 </div>
                 <div class="feature-card">
                     <i class="fa-solid fa-user-gear rounded-circle bg-white px-3 py-3 ml-2 my-2"></i>
-                    <p class="l-para my-1 mx-0 ml-3">Personalized Assistance</p>
+                    <h5 class="l-para my-1 mx-0 ml-3">Personalized Assistance</h5>
                     <p class="ml-3 text-justify">
                         Tailored Support from Expert AI TeamsAccess customized guidance
                         and support from a dedicated team of AI specialists who are
@@ -197,7 +192,7 @@
                 <div class="feature-card">
                     <i class="fa-sharp fa-solid fa-hourglass-start rounded-circle bg-white px-3 py-3 ml-2 my-2"
                         style="font-size: 18px"></i>
-                    <p class="l-para my-1 mx-0 ml-3">Secure and Confidential</p>
+                    <h5 class="l-para my-1 mx-0 ml-3">Secure and Confidential</h5>
                     <p class="px-1">
                         Trustworthy Handling of Sensitive DataRest assured knowing that
                         your sensitive financial information is handled with the utmost
@@ -237,7 +232,7 @@
             <div class="d-flex flex-wrap justify-content-center" style="gap: 10px">
                 <div class="feature-card">
                     <i class="fa-solid fa-lock rounded-circle bg-white px-3 py-3 ml-2 my-2"></i>
-                    <p class="l-para my-1 mx-0 p-1">Dashboard Design Principles</p>
+                    <h5 class="l-para my-1 mx-0 p-1">Dashboard Design Principles</h5>
                     <p class="px-1 text-justify ">
                         Effective visualization techniques, data organization, and user-friendly interface for intuitive
                         navigation.
@@ -245,7 +240,7 @@
                 </div>
                 <div class="feature-card">
                     <i class="fa-solid fa-user-gear rounded-circle bg-white px-3 py-3 ml-2 my-2"></i>
-                    <p class="l-para my-1 mx-0 ml-3">Real-Time Data Integration</p>
+                    <h5 class="l-para my-1 mx-0 ml-3">Real-Time Data Integration</h5>
                     <p class="ml-3 text-justify ">
                         Seamless integration of diverse data sources for up-to-the-minute insights into key performance
                         metrics.
@@ -254,7 +249,7 @@
                 <div class="feature-card">
                     <i class="fa-sharp fa-solid fa-hourglass-start rounded-circle bg-white px-3 py-3 ml-2 my-2"
                         style="font-size: 18px"></i>
-                    <p class="l-para my-1 mx-0 ml-3">Customization and Scalability</p>
+                    <h5 class="l-para my-1 mx-0 ml-3">Customization and Scalability</h5>
                     <p class="px-1 text-justify ">
                         Tailoring dashboards to specific business needs while ensuring scalability for future growth and
                         evolving requirements.
@@ -294,8 +289,8 @@
             <div class="d-flex flex-wrap justify-content-center" style="gap: 10px">
                 <div class="feature-card">
                     <i class="fa-solid fa-lock rounded-circle bg-white px-3 py-3 ml-2 my-2"></i>
-                    <p class="l-para my-1 mx-0 p-1">Efficiency Boost with Automated
-                        Data Entry</p>
+                    <h5 class="l-para my-1 mx-0 p-1">Efficiency Boost with Automated
+                        Data Entry</h5>
                     <p class="px-1 text-justify">
                         Streamline your accounting processes by leveraging AI-powered systems to automatically input and
                         organize financial data, saving time and reducing errors.
@@ -303,7 +298,7 @@
                 </div>
                 <div class="feature-card">
                     <i class="fa-solid fa-user-gear rounded-circle bg-white px-3 py-3 ml-2 my-2"></i>
-                    <p class="l-para my-1 mx-0 ml-3">Intelligent Reporting and Analysis</p>
+                    <h5 class="l-para my-1 mx-0 ml-3">Intelligent Reporting and Analysis</h5>
                     <p class="ml-3 text-justify">
                         Gain valuable insights into your business's financial health through AI-generated reports and
                         analysis, enabling informed decision-making and strategic planning.
@@ -312,7 +307,7 @@
                 <div class="feature-card">
                     <i class="fa-sharp fa-solid fa-hourglass-start rounded-circle bg-white px-3 py-3 ml-2 my-2"
                         style="font-size: 18px"></i>
-                    <p class="l-para my-1 mx-0 ml-3">Enhanced Security and Compliance</p>
+                    <h5 class="l-para my-1 mx-0 ml-3">Enhanced Security and Compliance</h5>
                     <p class="px-1 text-justify">
                         Ensure data integrity and regulatory compliance with AI-driven security measures, safeguarding
                         sensitive financial information against potential threats and breaches.
@@ -513,12 +508,16 @@
                     <h3>Join Our Newsletter</h3>
                     <p>Be the first to know about our latest updates, exclusive offers, and more.</p>
                 </div>
-                <div class="col-md-6 col-lg-4 col-sm-12 my-2 d-flex  column">
-                    <input type="email" class="px-2" name="" style="color: white;" placeholder="enter your email" id="">
+             
+                <div class="col-md-6 col-lg-4 col-sm-12 my-2 ">
+                    <form action="">
 
-                </div>
-                <div class="col-md-6 col-lg-2  col-sm-12 my-2 d-flex  column">
-                    <a href="#" class="subcribe px-4 py-2">Subcribe</a>
+                        <input type="email" class="input px-2 " name=""  placeholder="enter your email" >
+                    </form>
+                    </div>
+              
+                <div class="col-md-6 col-lg-2  col-sm-12 my-2 ">
+                    <a href="#" class="subcribe px-4 py-2 btn-block">Subcribe</a>
                 </div>
             </div>
             <div class="footer row my-3">
