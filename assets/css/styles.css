@@ -24,7 +24,6 @@
 	width: 100%;
 }
 
-
 .navbar {
 	display: flex;
 	align-items: center;
@@ -284,6 +283,7 @@ p {
 }
 
 
+
 .box:hover {
 	background-color: rgb(237, 250, 255);
 	border: 3px solid rgba(49, 160, 254, 1);
@@ -463,10 +463,6 @@ p {
 
 /* choose us start*/
 
-.cards {
-
-	flex-wrap: wrap;
-}
 
 
 .card {
@@ -1007,7 +1003,7 @@ p {
 	.img-second {
 		width: 280px;
 		top: 70px;
-		left: 30px;
+		left:30px;
 		position: absolute;
 		z-index: 1;
 		transform: rotate(10.17deg);
@@ -1064,6 +1060,7 @@ p {
 
 .feature-card p {
 	font-size: 13px;
+	color: rgba(108, 114, 120, 1);
 }
 
 .feature-card:hover {
@@ -1104,8 +1101,6 @@ p {
 
 
 @media (max-width: 768px) {
-
-
 	.future-section h2 {
 		font-size: 20px;
 	}
@@ -1152,6 +1147,140 @@ p {
 }
 
 /* feature page */
+
+
+.color {
+	color: rgba(22, 64, 193, 1);
+}
+
+
+/* products page */
+.product-section {
+	background-image: url(../img/product_bg.webp);
+	background-size: cover;
+	background-position: left;
+	background-repeat: no-repeat;
+	height: 100vh;
+	padding-top: 100px;
+}
+
+.product-title {
+	color: rgb(47, 55, 79);
+	font-family: Inter;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 58.09px;
+	text-align: left;
+}
+
+.product-third-section {
+	background-image: url(../img/product_third_bg.webp);
+	background-size: cover;
+}
+
+.cards {
+	height: 400px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: start;
+}
+
+.new-card {
+	width: 80px;
+	background-size: cover;
+
+	cursor: pointer;
+	overflow: hidden;
+	border-radius: 2rem;
+	margin: 0 10px;
+	transition: .6s cubic-bezier(.28, -0.03, 0, .99);
+	box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+}
+
+.new-card>.info {
+	display: none;
+}
+
+.new-card .info h2 {
+	color: white;
+
+}
+
+.new-card .info p {
+	color: white;
+
+}
+
+.new-card.active {
+	width: 100%;
+
+}
+
+.new-card.active .info {
+	display: block;
+}
+
+
+@media (max-width: 768px) {
+
+	.product-section {
+		background-image: url(../img/product_bg.webp);
+		background-size: cover;
+
+		padding-top: 0px;
+		text-align: center;
+	}
+
+	.product-title {
+		color: rgba(22, 64, 193, 1);
+		font-family: Inter;
+		font-size: 37px;
+		font-weight: 700;
+		line-height: 45.09px;
+		text-align: left;
+	}
+
+	.new-card.active .info {
+		display: none;
+	}
+
+
+
+}
+
+/* products page */
+
+
+
+/* about us page start */
+
+.about-section {
+	background-color: rgba(24, 73, 214, 1);
+	background-image: url(../img/background.webp);
+	background-size: cover;
+
+	padding-top: 100px;
+	padding-bottom: 20px;
+
+}
+
+
+@media (max-width: 768px) {
+	.about-section{
+		padding-top: 0px;
+	}
+}
+/* about us page end */
+
+
+
+
+
+
+
+
+
+
 
 
 /* sign-up page start  */

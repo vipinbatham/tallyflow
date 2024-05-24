@@ -9,5 +9,12 @@ $(document).ready(function () {
 
 
 
+$(document).ready(function(){
 
+  $(".new-card").on("click",function () {
+    $(".new-card").removeClass("active");
+    $(this).addClass("active");
+  });
+  
+})
 
