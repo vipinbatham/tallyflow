@@ -1003,7 +1003,7 @@ p {
 	.img-second {
 		width: 280px;
 		top: 70px;
-		left:30px;
+		left: 30px;
 		position: absolute;
 		z-index: 1;
 		transform: rotate(10.17deg);
@@ -1266,13 +1266,128 @@ p {
 
 
 @media (max-width: 768px) {
-	.about-section{
+	.about-section {
 		padding-top: 0px;
 	}
 }
+
 /* about us page end */
 
 
+/* pricing start */
+.pricing-plan {
+	border: 1px solid #dee2e6;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	transition: transform 0.3s ease-in-out;
+}
+
+.pricing-plan:hover {
+	transform: translateY(-10px);
+}
+
+.pricing-header {
+	padding: 20px;
+}
+
+.pricing-body {
+	padding: 20px;
+}
+
+.pricing-body h2 {
+	margin: 0;
+}
+
+.pricing-features {
+	list-style: none;
+	padding: 0;
+}
+
+.pricing-features li {
+	padding: 5px 0;
+}
+
+.btn-rounded {
+	border-radius: 50px;
+}
+
+.most-popular {
+	position: relative;
+}
+
+
+.pricing-table {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+.pricing-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.pricing-card h3 {
+  margin-top: 0;
+  font-size: 24px;
+}
+.pricing-card .price {
+  font-size: 32px;
+  color: #333;
+}
+.pricing-card .features {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+.pricing-card .features li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+.pricing-card button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pricing-card button:hover {
+  background-color: #0056b3;
+}
+
+.feature-table {
+  width: 100%;
+
+}
+.feature-table th, .feature-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  /* text-align: center; */
+}
+.feature-table th {
+  background-color: #f1f1f1;
+}
+.feature-section {
+  background-color: #f1f1f1;
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+	#price-container{
+		display: none;
+	}
+}
+
+
+/* pricing  end */
 
 
 
