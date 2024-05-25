@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<style>
+    .owl-carousel .owl-item {
+        padding: 50px;
+        width: 300px;
+        /* Fixed width for each item */
+        height: 400px;
+        /* Fixed height for each item */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(225, 244, 255, 1);
+        padding: 20px;
+        box-sizing: border-box;
+        transform: rotate(0deg);
+        transition: transform 0.3s ease;
+
+        border-radius: 20px;
+    }
+
+
+
+    .item p {
+        font-family: Inter;
+        font-size: 20.3px;
+        font-weight: 500;
+        line-height: 40px;
+        letter-spacing: -0.63px;
+        /* Adjusted letter-spacing */
+        text-align: left;
+    }
+</style>
+
+<body>
+    <!-- header  -->
+    <header class="header py-2" id="navbar">
+        <div class="container  navbar  align-items-center">
+            <div class="section-1-logo align-items-center">
+                <img src="assets/img/logo.webp" alt="logo">
+                <a href="index.html" class="logo-text mr-2">TallyFlow.</a>
+            </div>
+            <button class="fa-solid fa-bars text-white" id="menu"></button>
+            <ul class="nav" id="nav" style="gap: 14px" ;>
+                <li><a href="feature.html" class="link-text">Features</a></li>
+                <li><a href="products.html" class="link-text">Products</a></li>
+                <li><a href="#" class="link-text">Pricing</a></li>
+                <li><a href="about us.html" class="link-text">About us</a></li>
+                <li><a href="#" class="link-text">Tools</a></li>
+            </ul>
+
+            <div class="section-3-serch-auth">
+                <a href="#" class="login-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+
+                <a href="sign-up-page.html" class="login-link"> <i class="fa-solid fa-user mx-1"></i>Sign In / Sign
+                    Up</a>
+            </div>
+        </div>
+    </header>
+    <!-- header  -->
+
+    <!-- product section -->
+    <section class="product-section ">
+        <div class="container pt-5">
+            <div class="row pt-5 justify-content-between">
+                <div class="col-lg-5 col-md-5 col-sm-12">
+                    <h2 class="product-title text-primary">Empower Your Workflow with TallyFlow!</h2>
+                    <p class="text-justify table-para">"Unlock the Full Potential of Your Business Finances with
+                        TallyFlow: Seamlessly Manage Invoices.</p>
+                    <div class="buttons  my-3">
+                        <a href="#" class="hero-btn text-white" style="background-color: rgb(0, 91, 234)"><i
+                                class="fa-solid fa-calendar mx-2"></i>Shedule Demo</a>
+                        <a href="#" class="hero-btn-2 text-primary border-2 border-primary bg-white"><i
+                                class="fa-solid fa-circle-play mx-2"></i>Watch
+                            now</a>
+                    </div>
+                </div>
+                <div class="col-lg-6  col-md-5 col-sm-12 ">
+                    <img src="assets/img/Desktop-wires.webp" class="img-fluid position-relative" style="z-index: 2;">
+                    <img src="assets/svg/blue-bg.svg" class=" img-fluid position-absolute"
+                        style="z-index: 1; left: 0px; top: 0px;" alt="background">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="d-flex flex-wrap justify-content-center" style="gap: 10px">
+                <div class="feature-card">
+                    <i class="fa-solid fa-lock rounded-circle bg-white px-3 py-3 ml-2 my-2"></i>
+                    <h5 class="l-para my-1 mx-0 p-1">Automated Accounting Services
+                        Through AI</h5>
+                    <p class="px-1 text-justify">
+                        <li style="font-size: 12px;"><b>Streamline Your Finances :</b> Harness the power of AI to
+                            automate repetitive accounting tasks, saving time and reducing errors.</li>
+                        <li style="font-size: 12px;"><b>Personalized Financial Insights:</b> Gain actionable insights
+                            tailored to your business, helping you make informed decisions with confidence</li>
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <i class="fa-solid fa-user-gear rounded-circle bg-white px-3 py-3 ml-2 my-2"></i>
+                    <h5 class="l-para my-1 mx-0 ">
+                        Tax Return Filing through AI
+                        Powered Team
+                    </h5>
+                    <p class="px-1 text-justify">
+                        <li style="font-size: 12px;"><b>Effortless Tax Compliance:</b> Harness the power of AI to
+                            automate repetitive accounting tasks, saving time and reducing errors.</li>
+                        <li style="font-size: 12px;"><b>Expert Guidance at Your Fingertips:</b> Gain actionable insights
+                            tailored to your business, helping you make informed decisions with confidence</li>
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <i class="fa-sharp fa-solid fa-hourglass-start rounded-circle bg-white px-3 py-3 ml-2 my-2"
+                        style="font-size: 18px"></i>
+                    <h5 class="l-para my-1 mx-0 ">Automated Dashboards For
+                        Quick Business Overview</h5>
+                    <p class="px-1 text-justify">
+                        <li style="font-size: 12px;"><b>Instant Business Insights:</b> Harness the power of AI to
+                            automate repetitive accounting tasks, saving time and reducing errors.</li>
+                        <li style="font-size: 12px;"><b>Data-Driven Decision Making:</b> Gain actionable insights
+                            tailored to your business, helping you make informed decisions with confidence</li>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="product-third-section py-5">
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-lg-6 col-md-6 col-sm-12 ">
+                    <h3 class="title">Benefit’s of Our TallyFlow AI Ecosystem</h3>
+                    <p class="my-2 text-white text-justify">
+                        Unlock the full potential of your business with TallyFlow's suite of powerful tools and
+                        capabilities. From automated accounting services to real-time reporting, TallyFlow empowers you
+                        to streamline your financial processes and make data-driven decisions with confidence.</p>
+                    <br>
+                    <a href="#" class="hero-btn"><i class="fa-solid fa-calendar mx-2"></i>Shedule Demo</a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 my-3">
+                    <img src="assets/img/lappy.webp" class="img-fluid" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container pl-5"><svg width="2" height="40" viewBox="0 0 2 40" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 0L0.999998 40" stroke="#224C93" stroke-width="1.5" stroke-dasharray="6 6" />
+        </svg>
+    </div>
+
+
+    <section>
+        <div class="container-fluid mx-auto">
+            <div class="row d-flex flex-wrap justify-content-center    mx-auto px-3" style="gap: 30px;">
+                <div class="feature-card" style="width: 451px;">
+                    <i class="fa-solid fa-lock text-primary  rounded-circle bg-white px-3 py-3 ml-2 my-2"
+                        style="font-size: 18px"></i>
+                    <h5 class="l-para my-1 mx-0 ">Enhanced Efficiency</h5>
+                    <p class="px-1 text-justify">
+                        <li style="font-size: 12px;"><b>Save Time, Reduce Errors:</b> TallyFlow automates repetitive
+                            accounting tasks, allowing you to focus on core business activities without worrying about
+                            manual data entry.</li>
+                        <li style="font-size: 12px;"><b>Streamlined Workflows:</b> With streamlined processes and
+                            automated workflows, you can eliminate bottlenecks and accelerate your accounting and tax
+                            operations.</li>
+                    </p>
+                </div>
+
+                <div class="feature-card" style="width: 352px;">
+                    <i class="fa-solid fa-lock text-primary rounded-circle bg-white px-3 py-3 ml-2 my-2"
+                        style="font-size: 18px"></i>
+                    <h5 class="l-para my-1 mx-0 ">Improved Accuracy</h5>
+                    <p class="px-1 text-justify">
+                        <li style="font-size: 12px;"><b>Error-Free Accounting: </b> Leveraging AI technology, TallyFlow
+                            ensures accuracy in your financial records, reducing the risk of costly mistakes.</li>
+                        <li style="font-size: 12px;"><b>Precision Tax Filing:</b> Our AI-powered team guarantees precise
+                            tax returns, minimizing the chances of audits and penalties.</li>
+                    </p>
+                </div>
+
+                <div class="feature-card" style="width: 458px;">
+                    <i class="fa-solid fa-lock text-primary rounded-circle bg-white px-3 py-3 ml-2 my-2"
+                        style="font-size: 18px"></i>
+                    <h5 class="l-para my-1 mx-0 ">Personalized Insights </h5>
+                    <p class="px-1 text-justify">
+                        <li style="font-size: 12px;"><b>Tailored Financial Analysis:</b> TallyFlow provides personalized
+                            financial insights based on your business data, empowering you to make informed decisions.
+                        </li>
+                        <li style="font-size: 12px;"><b>Customized Reports: </b> Access detailed reports and analytics
+                            that are customized to your specific business needs, offering valuable insights into your
+                            financial performance.</li>
+                    </p>
+                </div>
+                <div class="feature-card" style="width: 451px;">
+                    <i class="fa-solid fa-lock text-primary rounded-circle bg-white px-3 py-3 ml-2 my-2"
+                        style="font-size: 18px"></i>
+                    <h5 class="l-para my-1 mx-0 ">Compliance Assurance</h5>
+                    <p class="px-1 text-justify">
+                        <li style="font-size: 12px;"><b>Stay Compliant:</b>TallyFlow keeps you up-to-date with the
+                            latest regulatory requirements, ensuring compliance with tax laws and accounting standards.
+                        </li>
+                        <li style="font-size: 12px;"><b>Audit Preparedness: </b> With accurate record-keeping and
+                            documentation, TallyFlow helps you stay prepared for audits and regulatory reviews.</li>
+                    </p>
+                </div>
+                <div class="feature-card" style="width: 458px;">
+                    <i class="fa-solid fa-lock text-primary rounded-circle bg-white px-3 py-3 ml-2 my-2"
+                        style="font-size: 18px"></i>
+                    <h5 class="l-para my-1 mx-0 ">Seamless Integration</h5>
+                    <p class="px-1 text-justify">
+                        <li style="font-size: 12px;"><b>Connect Your Tools:</b> Harness the power of AI to
+                            automate repetitive accounting tasks, saving time and reducing errors.</li>
+                        <li style="font-size: 12px;"><b>Connect Your Tools:</b> Gain actionable insights
+                            tailored to your business, helping you make informed decisions with confidence</li>
+                    </p>
+                </div>
+                <div class="feature-card" style="width: 352px;">
+                    <i class="fa-solid fa-lock text-primary rounded-circle bg-white px-3 py-3 ml-2 my-2"
+                        style="font-size: 18px"></i>
+                    <h5 class="l-para my-1 mx-0 ">Cost Savings</h5>
+                    <p class="px-1 text-justify">
+                        <li style="font-size: 12px;"><b>Reduce Overhead:</b> By automating accounting tasks and tax
+                            filings, TallyFlow helps you reduce overhead costs associated with hiring additional staff
+                            or outsourcing services.</li>
+                        <li style="font-size: 12px;"><b>Optimize Resources: </b> With TallyFlow's efficient processes,
+                            you can optimize resource allocation and allocate resources where they're needed most.</li>
+                    </p>
+                </div>
+                <div class="feature-card" style="width: 352px;">
+                    <i class="fa-solid fa-lock text-primary rounded-circle bg-white px-3 py-3 ml-2 my-2"
+                        style="font-size: 18px"></i>
+                    <h5 class="l-para my-1 mx-0 ">Cost Savings</h5>
+                    <p class="px-1 text-justify">
+                        <li style="font-size: 12px;"><b>Reduce Overhead:</b> By automating accounting tasks and tax
+                            filings, TallyFlow helps you reduce overhead costs associated with hiring additional staff
+                            or outsourcing services.</li>
+                        <li style="font-size: 12px;"><b>Optimize Resources: </b> With TallyFlow's efficient processes,
+                            you can optimize resource allocation and allocate resources where they're needed most.</li>
+                    </p>
+                </div>
+                <div class="feature-card" style="width: 944px">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-5 px-4">
+                            <i class="fa-solid fa-lock text-primary rounded-circle bg-white px-3 py-3 ml-2 my-2"
+                                style="font-size: 18px"></i>
+                            <h5 class="l-para my-1 mx-0 ">Automated Dashboards For
+                                Quick Business Overview</h5>
+                            <p class="px-1 text-justify">
+                                <li style="font-size: 12px;"><b>Instant Business Insights:</b> Harness the power of AI
+                                    to
+                                    automate repetitive accounting tasks, saving time and reducing errors.</li>
+                                <li style="font-size: 12px;"><b>Data-Driven Decision Making:</b> Gain actionable
+                                    insights
+                                    tailored to your business, helping you make informed decisions with confidence</li>
+                            </p>
+                        </div>
+                        <div class="col-lg-6 my-4">
+                            <img src="assets/img/Desktop-wires.webp" class="img-fluid"
+                                style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;" width="400px"
+                                height="300px" alt="tallyflow-dashboard">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <section class="py-5">'
+        <div class="container">
+            <h2 class="title-second color  text-center">How it works</h2>
+            <p class="text-center table-para   text-dark">TallyFlow seamlessly integrates with your accounting systems,
+                automating tedious tasks with AI for precision and efficiency. Gain real-time insights and customizable
+                reports, empowering informed decisions and business growth.</p>
+            <div class="cards">
+                <div class="new-card active" style="background-image: url(assets/img/img_gallery.webp);">
+                    <div class="info  px-5 py-5">
+                        <div class="content-text-badge" style="width: 170px">
+                            <img src="assets/img/box_img.webp" alt="" width="18px" height="18px" />
+                            <p class="m-0">How it Works ✨</p>
+                        </div>
+                        <h2 class="title">Data Integration and Analysis</h2>
+                        <p>TallyFlow begins by seamlessly integrating with your existing accounting software and
+                            business systems, consolidating financial data from various sources. Using advanced AI
+                            algorithms, it then analyzes this data to identify patterns, trends, and anomalies.</p>
+                        <a href="#" class="hero-btn btn btn-white text-dark my-4">Get Started</a>
+                    </div>
+                </div>
+                <div class="new-card " style="background-image: url(assets/img/img_gallery2.webp);">
+                    <div class="info  px-5 py-5">
+                        <div class="content-text-badge" style="width: 170px">
+                            <img src="assets/img/box_img.webp" alt="" width="18px" height="18px" />
+                            <p class="m-0">How it Works ✨</p>
+                        </div>
+                        <h2 class="title">Data Integration and Analysis</h2>
+                        <p>TallyFlow begins by seamlessly integrating with your existing accounting software and
+                            business systems, consolidating financial data from various sources. Using advanced AI
+                            algorithms, it then analyzes this data to identify patterns, trends, and anomalies.</p>
+                        <a href="#" class="hero-btn btn btn-white text-dark my-4">Get Started</a>
+                    </div>
+                </div>
+                <div class="new-card" style="background-image: url(assets/img/img_gallery3.webp);">
+                    <div class="info  px-5 py-5">
+                        <div class="content-text-badge" style="width: 170px">
+                            <img src="assets/img/box_img.webp" alt="" width="18px" height="18px" />
+                            <p class="m-0">How it Works ✨</p>
+                        </div>
+                        <h2 class="title">Autumn</h2>
+                        <p>TallyFlow begins by seamlessly integrating with your existing accounting software and
+                            business systems, TallyFlow begins by seamlessly integrating with your existing accounting
+                            software and business systems, </p>
+                        <a href="#" class="hero-btn btn btn-white text-dark my-4">Get Started</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="py-5">
+        <div class="container">
+            <h2 class="title-second my-3"></h2>
+
+            <div class="owl-carousel owl-theme">
+
+
+                <div class="item active">
+                    <div class="content">
+                        <div class="content px-2 py-3">
+                            <h2><i class="fa-sharp fa-solid fa-quote-left"></i></h2>
+                            <p>
+                                Headspace gives me a
+                                slice of the day that’s just
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <div class="content px-2 py-3">
+                            <h2><i class="fa-sharp fa-solid fa-quote-left"></i></h2>
+                            <p>Headspace provides me
+                                with … a connection to
+                                myself, and a
+                                disconnection from
+                                negative thoughts,
+                                feelings, and sensations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <div class="content px-2 py-3">
+                            <h2><i class="fa-sharp fa-solid fa-quote-left"></i></h2>
+                            <p>
+                                changing my life
+                                has allowed me to
+                                change my life.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <div class="content px-2 py-3">
+                            <h2><i class="fa-sharp fa-solid fa-quote-left"></i></h2>
+                            <p>
+                                I came to learn that the
+                                storyline in my head …
+                                was holding me back.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <div class="content px-2 py-3">
+                            <h2><i class="fa-sharp fa-solid fa-quote-left"></i></h2>
+                            <p>
+                                Your app brings so much
+
+                                peace and tolerance to
+
+                                our home.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <div class="content px-2 py-3">
+                            <h2><i class="fa-sharp fa-solid fa-quote-left"></i></h2>
+                            <p>
+                                Your app brings so much
+
+                                peace and tolerance to
+
+                                our home.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- fifth section start -->
+
+    <section class="fifth-section pt-5">
+        <div class="container pt-3 px-5">
+            <div class="row  text-center">
+                <div class="col-lg-7 col-md-12 col-sm-7 col-sm-7">
+                    <h2 class="first">Effortless Accounting </h2>
+                    <h2 class="second">Exceptional Results </h2>
+                    <h2 class="third">Experience TallyFlow Today !</h2>
+                    <a href="#" class="hero-btn fifth-btn mt-5"><i class="fa-solid fa-calendar mx-1"></i>Shedule
+                        Demo</a>
+                </div>
+                <div class="col-lg-5 col-md-12 py-3 col-sm-5 my-2 col-sm-5 img-box">
+                    <img src="assets/img/Subtract.png" class="img-fluid  img-fluid img-first" alt="" srcset="">
+                    <img src="assets/img/Desktop-wires.webp" class="img-fluid  img-fluid img-second" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fifth section end -->
+
+    <section class="question-section py-5">
+        <div class="container question-container row mx-auto">
+            <div class="col-md-6 col-sm-12 py-5  mx-auto">
+                <div class="content-text-badge" style="width:130px;"><img src="assets/img/box_img.webp" alt="badge"
+                        width="18px" height="18px">
+                    <p class="m-0">FAQ ✨</p>
+                </div>
+                <h2>Frequently asked questions</h2>
+                <p class="para text-justify">Frequently asked questions ordered by popularity. Remember that if the
+                    visitor has not
+                    commit to the
+                    call to action, they may still have questions (doubts) that can be answered. </p>
+
+                <img src="assets/img/laptop.webp" class=" my-5 img-fluid" alt="laptop_image"
+                    style="object-fit: contain; border-radius: 20px;">
+
+
+            </div>
+            <div class="col-lg-6 col-sm-12 align-items-start">
+                <div class="accordion" style="background: transparent;" id="accordionExample">
+                    <div class="card-box">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn  btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What is the minimum investment required in the pre-IPO round?
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordionExample">
+                            <div class="card-body text-justify">
+                                Neuros's AI-driven predictive analytics utilizes advanced machine learning algorithms to
+                                analyze historical data and identify patterns. By doing so, it can anticipate future
+                                trends, market shifts, and potential challenges, allowing businesses to make informed
+                                decisions proactively.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-box">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    What is the minimum investment required in the pre-IPO round?
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                            data-parent="#accordionExample">
+                            <div class="card-body text-justify">
+                                The minimum investment amount for participation in the pre-IPO round varies depending on
+                                the specific offering. Typically, this information is provided in the offering documents
+                                or prospectus. We recommend reviewing the details of the offering to understand the
+                                minimum investment threshold.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-box">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    What is the minimum investment required in the pre-IPO round?
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordionExample">
+                            <div class="card-body text-justify">
+                                Absolutely! At Neuros, we prioritize data security. All data processed and stored on our
+                                platform is encrypted using industry-standard protocols. Additionally, we have stringent
+                                access controls in place to ensure that only authorized personnel can access sensitive
+                                information.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- New Accordion Items Start Here -->
+                    <div class="card-box">
+                        <div class="card-header" id="headingFour">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">
+                                    Can I integrate Neuros with other tools and platforms I currently use?
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                            data-parent="#accordionExample">
+                            <div class="card-body text-justify">
+                                Yes, Neuros is designed to seamlessly integrate with a wide range of business tools,
+                                CRMs, ERPs, and other platforms. Our goal is to provide a unified analytics experience,
+                                ensuring you have a holistic view of your operations.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-box">
+                        <div class="card-header" id="headingFive">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+                                    aria-controls="collapseFive">
+                                    How is the pricing structured for Neuros? Are there any hidden fees?
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                            data-parent="#accordionExample">
+                            <div class="card-body text-justify">
+                                Neuros offers transparent pricing with various plans to cater to different business
+                                needs. All our pricing details are listed on the "Pricing" page. There are no hidden
+                                fees, and you can choose a plan that best fits your requirements.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-box">
+                        <div class="card-header" id="headingSix">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseSix" aria-expanded="false"
+                                    aria-controls="collapseSix">
+                                    I'm new to business analytics. Does Neuros offer any support or tutorials?
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
+                            data-parent="#accordionExample">
+                            <div class="card-body text-justify">
+                                Absolutely! We understand that analytics can be overwhelming, especially if you're new
+                                to it. Neuros offers a range of tutorials, user guides, and dedicated customer support
+                                to assist you at every step. Our aim is to make your Neuros experience as smooth and
+                                beneficial as possible.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- New Accordion Items End Here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="six-section py-5 text-white">
+        <div class="container mx-auto px-3">
+            <div class="col-lg-6 py-3">
+                <h2>Talk with Our Expert’s!</h2>
+                <p class="para text-justify"> Engage in insightful discussions and gain valuable insight by conversing
+                    with our team
+                    of experts.
+                    Whether you're seeking guidance on complex issues or looking to explore innovative solutions
+                    our
+                    ]experts are here to support you every step of the way. Join
+                    the conversation today and unlock the power
+                    of expertise to propel your endeavors forward.
+                </p>
+                <div class="my-5 ">
+                    <a href="#" class="hero-btn "><i class="fa-solid fa-calendar mx-2"></i>Shedule Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="py-5 px-1 text-white" style="background-color: rgba(22, 64, 193, 1); ">
+        <div class="container">
+            <div class="row py-3 " style="border-bottom: 2px solid white">
+                <div class="col-md-12 col-lg-6 col-sm-12 my-2">
+                    <h3>Join Our Newsletter</h3>
+                    <p>Be the first to know about our latest updates, exclusive offers, and more.</p>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-12 my-2 ">
+                    <input type="email" class="px-2 input" name="" style="color: white;" placeholder="enter your email"
+                        id="">
+
+                </div>
+                <div class="col-md-6 col-lg-2  col-sm-12 my-2 ">
+                    <a href="#" class="subcribe px-4 py-2 btn-block">Subcribe</a>
+                </div>
+            </div>
+            <div class="footer row my-3">
+                <div class="col-md-12 col-lg-2 col-sm-12 section-1-logo align-items-center">
+                    <img src="assets/img/Vector.webp" class="logo d-block ">
+                    <h2 class="logo-text text-white ">TallyFlow.</h2>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+                    <h4 class="footer-links-heading text-center">Product & Service</h4>
+
+                    <ul>
+                        <li class="my-3"><a href="#" class="footer-links ">Products</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Features</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Pricing</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Type text</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+                    <h4 class="footer-links-heading  text-center">Other</h4>
+
+                    <ul>
+                        <li class="my-3"><a href="#" class="footer-links ">Type text</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Type text</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Type text</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Type text</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Type text</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+                    <h4 class="footer-links-heading text-center">Connect us</h4>
+                    <ul>
+                        <li class="my-3"><a href="#" class="footer-links ">Contact</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Email Support</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Live Chat</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Phone Support</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Community</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+                    <h4 class="footer-links-heading text-center">Companys</h4>
+                    <ul>
+                        <li class="my-3"><a href="#" class="footer-links ">Company Info</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">Investors</a></li>
+                        <li class="my-3"><a href="#" class="footer-links ">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom row  mx-auto">
+                <p class=" col-lg-4 col-sm-12 col-md-4 my-2 ">
+                    © 2024 TallyFlow UI. All Rights Reserved.</p>
+                <ul class=" col-lg-4 col-sm-12 col-md-4 my-2  justify-content-center"
+                    style="list-style: none; display: flex; gap: 20px;">
+                    <li>policy</li>
+                    <li>English</li>
+                    <li>legel</li>
+                </ul>
+                <ul class="col-sm-12 col-md-4 my-2 justify-content-around my-1 list-unstyled d-flex my-3" ">
+                    <li><i class=" fa-brands social-brands fa-facebook" "></i></li>
+                    <li><i class=" fa-brands social-brands fa-instagram" "></i></li>
+                    <li><i class=" fa-brands social-brands fa-twitter" "></i></li>
+                    <li><i class=" fa-brands social-brands fa-linkedin" "></i></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src=" assets/js/owl.carousel.min.js">
+    </script>
+
+                    <script>
+                        $(document).ready(function () {
+                            $('.owl-carousel').owlCarousel({
+                                loop: true,
+                                margin: 10,
+                                nav: true,
+                                responsive: {
+                                    0: {
+                                        items: 1
+                                    },
+                                    600: {
+                                        items: 3
+                                    },
+                                    1000: {
+                                        items: 3
+                                    }
+                                }
+                            })
+                        });
+                    </script>
+
+</body>
+
+</html>
